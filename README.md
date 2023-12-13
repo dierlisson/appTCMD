@@ -11,6 +11,13 @@ O aplicativo Pechinchando Preços, em desenvolvimento, tem como objetivo conecta
 ## Sobre o Front-End
 O front-end é responsável por criar a interface do usuário e proporcionar uma experiência visual agradável ao interagir com o software, aplicativo ou site. Este repositório foi criado para permitir que os desenvolvedores e membros da Equipe 3 possam contribuir com a página principal e outras páginas do aplicativo web.
 
+# links de acesso:
+- HOME DO SITE: https://dierlisson.github.io/appTCMD/home.html
+- PÁGINA DE BUSCA: https://dierlisson.github.io/appTCMD/busca.html
+- PÁGINA DE LOGIN https://dierlisson.github.io/appTCMD/login.html
+- PÁGINA DO ITEM: https://dierlisson.github.io/appTCMD/item.html
+- PÁGINA DA LISTA: https://dierlisson.github.io/appTCMD/lista.html
+
 ## Integrantes da Equipe
 - Dierlisson Santos Justiniano
 - Letícia Endlich da Cruz
