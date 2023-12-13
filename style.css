@@ -374,3 +374,150 @@ footer>p {
   text-align: center;
 }
 
+
+/* página do item */
+
+/* página de busca */
+.busca-inicio {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.busca-titulo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+}
+
+.busca-titulo ion-icon {
+  color: #231f20;
+  font-size: 20px;
+}
+
+.busca-titulo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #313131;
+}
+
+.busca-inicio p {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.busca-inicio span {
+  font-weight: 700;
+  font-size: 20px;
+  color: #2f2f2f;
+}
+
+.busca-menus {
+  margin-top: 30px;
+}
+
+.busca-filtros {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filtros-item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border: 1px solid #d7d7d7;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.rotated {
+  transform: rotate(270deg);
+  color: #555555;
+}
+
+.filtros-resultado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filtros-resultado > p {
+  font-size: 14px;
+  color: #5c5c5c;
+}
+
+.filtros-resultado div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+
+.filtros-resultado div > p {
+  font-size: 16px;
+  color: #4b4b4b;
+}
+
+.busca-resultados {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.resultado-item {
+  display: flex;
+  gap: 10px;
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+  padding: 15px 0 5px 10px;
+}
+
+.resultado-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.resultado-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resultado-info div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resultado-info div:nth-child(1) h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2f2f2f;
+}
+
+.resultado-info div:nth-child(1) ion-icon {
+  color: #c7c7c7;
+  font-size: 24px;
+}
+
+.resultado-info div:nth-child(2) p:nth-child(1) {
+  font-size: 14px;
+  margin-bottom: -8px;
+}
+
+.resultado-info div:nth-child(2) p:nth-child(2) {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2f2f2f;
+}
+
+.resultado-info p:nth-last-child(1) {
+  font-size: 13px;
+  color: #444444;
+  margin-top: 5px;
+}
