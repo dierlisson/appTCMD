@@ -1,0 +1,375 @@
+/* estilos gerais */
+body {
+  margin: 0px;
+  background-color: #e7e7e7;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+
+
+/* header */
+.body {
+  overflow: hidden;
+}
+
+.body,
+.body * {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 10px 20px 30px 20px;
+}
+
+.body {
+  width: 430px;
+  margin: 5vh auto;
+  background: #ffffff;
+  border: solid 4px rgba(0, 0, 0, 0.452);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+header {
+  padding: 8px 10px 10px 10px;
+  background: #505599;
+  color: white;
+  position: relative;
+  z-index: 1;
+  overflow: visible auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ion-icon {
+  font-size: 1.5rem;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.menu-user {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  padding: 2px 10px;
+  border: solid 1px white;
+  border-radius: 15px;
+}
+
+.menu-login {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-busca {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+
+.header-logo {
+  width: 40%;
+}
+
+.header-logo img {
+  width: 70%;
+}
+
+.header-busca {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: -40px;
+}
+
+.header-busca input {
+  height: 45px;
+  width: 110%;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.header-busca input:focus {
+  outline: none;
+  border: 2px solid #49174c;
+}
+
+.header-busca input::placeholder {
+  color: #bfbfbf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.header-busca a {
+  position: absolute;
+  right: 25px;
+  top: 94px;
+  color: #afafaf;
+}
+
+.header-local {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.header-local p {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* footer */
+footer {
+  background: #505599;
+  padding: 20px 10px 10px 0px;
+}
+
+.footer-flex {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-logo img {
+  width: 100px;
+}
+
+.footer-contato,
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.footer-flex h3 {
+  font-size: 16px;
+  color: #090909;
+}
+
+.footer-flex p {
+  font-size: 12px;
+  color: #161616;
+  font-weight: 600;
+}
+
+footer > p {
+  margin: 15px 0 0 15px;
+  font-size: 12px;
+  color: #212121;
+}
+
+
+
+
+
+/* página home */
+.home-slogan h1 {
+  font-family: "Poppins";
+  font-size: 28px;
+  color: #49174c;
+  margin-bottom: -5px;
+}
+
+.home-slogan h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #646464;
+  position: relative;
+  left: 60px;
+}
+
+.home-secao {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.home-secao-titulo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.home-secao-titulo h3,
+.home-secao-titulo p {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  color: #444444d7;
+}
+
+.home-secao-titulo p {
+  font-size: 12px;
+  text-transform: unset;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.loja-cards {
+  display: flex;
+  gap: 15px;
+}
+
+.loja-cards .card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 78px;
+  height: 90px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.loja-cards .card-item:hover {
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.25);
+  width: 98px;
+}
+
+.card-item h4 {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.categoria-cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+}
+
+.categoria-cards .card-item {
+  display: flex;
+  justify-content: center;
+  width: 115px;
+  height: 80px;
+  padding: 15px 15px 0px 5px;
+  border-radius: 10px;
+  border: 1px solid #d7d7d7;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.219);
+  cursor: pointer;
+}
+
+.categoria-cards .card-item:hover {
+  background-color: rgba(224, 224, 224, 0.3);
+}
+
+.categoria-cards .card-item img {
+  width: 47%;
+  align-self: flex-start;
+}
+
+.categoria-cards .card-item h4 {
+  font-size: 11px;
+  align-self: flex-end;
+}
+
+#titulo-lista {
+  cursor: pointer;
+}
+
+.lista {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  margin-top: 10px;
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+  padding: 10px 10px 10px 20px;
+}
+
+.lista-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lista-item label {
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #333;
+  font-weight: 500;
+}
+
+.home-assistente {
+  margin-bottom: 0px;
+}
+
+.assistente-cards {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.assistente-cards .card-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.assistente-cards .card-item:hover {
+  .assistente-icone {
+    border: 5px solid #49174c;
+  }
+}
+
+.assistente-icone {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 120%;
+  border: 3px solid #49174c;
+  display: flex;
+  justify-content: center;
+}
+
+.assistente-icone img {
+  width: 32px;
+  height: 32px;
+}
+
+.assistente-cards h4 {
+  text-align: center;
+}
